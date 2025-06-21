@@ -30,8 +30,7 @@ docker run hello-world
 echo "========================="
 echo "INSTALL CMS"
 echo "========================="
-
-curl -o cms_install.sh https://cms.s.cdatayun.com/cms_linux/cms_install.sh && chmod +x ./cms_install.sh
+chmod +x ./cms_install.sh
 
 ./cms_install.sh install --version 3.6.9
 
